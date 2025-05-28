@@ -1,2 +1,2 @@
 # Bookshelf-app
-dicoding backend submission
+dicoding backend submission - Hapi.js
