@@ -1,0 +1,30 @@
+[
+  {
+    "id": "20efd3dd-6ec2-47f4-a612-0cd3310001c5",
+    "name": "malkist sweet crackers",
+    "author": "Roma",
+    "year": 2000,
+    "summary": "rasanya manis",
+    "publisher": "malkist",
+    "pageCount": 15,
+    "readPage": 10,
+    "reading": 1,
+    "finished": false,
+    "insertedAt": "2025-05-27T15:08:24.071Z",
+    "updatedAt": "2025-05-27T15:08:24.071Z"
+  },
+  {
+    "id": "20gbd675d-6ec2-67h4-a612-0c46710001c4",
+    "name": "malkist sweet crackers",
+    "author": "Roma",
+    "year": 2000,
+    "summary": "rasanya manis",
+    "publisher": "malkist",
+    "pageCount": 15,
+    "readPage": 10,
+    "reading": 1,
+    "finished": false,
+    "insertedAt": "2025-05-27T15:08:24.071Z",
+    "updatedAt": "2025-05-27T15:08:24.071Z"
+  }
+]
