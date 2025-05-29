@@ -8,7 +8,7 @@ const getAllBooksHandler = (req, res) => {
     let booksData = loadBooks();
 
     if (name) {
-        booksData = booksData.filter((book) => book.title.toLowerCase().includes(name.toLowerCase()));
+        booksData = booksData.filter((book) => book.name.toLowerCase().includes(name.toLowerCase()));
     }
 
     if (reading) {
@@ -17,6 +17,16 @@ const getAllBooksHandler = (req, res) => {
 
     if (finished) {
         booksData = booksData.filter((book) => book.finished === (finished === '1'));
+    }
+
+    if (booksData.length === 0) {
+        return res.status(200).json({
+            status: 'success',
+            message: 'Tidak ada buku yang cocok dengan pencarian',
+            data: {
+                books: [],
+            },
+        });
     }
 
     return res.status(200).json({
