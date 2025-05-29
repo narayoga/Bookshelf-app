@@ -1,2 +1,2 @@
 # Bookshelf-app
-starter project 
+backend with express.js
