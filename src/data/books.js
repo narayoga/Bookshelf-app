@@ -8,6 +8,7 @@ function loadBooks() {
     const fileContent = fs.readFileSync(dataPath, 'utf-8');
     return JSON.parse(fileContent);
   } catch (err) {
+    console.error('Error reading books data:', err);
     return [];
   }
 }
